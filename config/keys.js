@@ -1,3 +1,5 @@
-module.exports = {
-    mongoURI: 'mongodb://nico:nico123456@ds115442.mlab.com:15442/reech'
-};
+if(process.env.NODE_ENV === 'production') {
+    module.exports = require('./keys_prod');
+} else {
+    module.exports = require('./keys_dev');
+}
