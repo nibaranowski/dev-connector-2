@@ -17,10 +17,12 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "sass:build": "sass - update src/styles/scss:src/styles/css",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn sass:build && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sass" : "sass --watch src/styles/scss:src/styles/css"
   },
   "proxy": "http://localhost:5000"
 }
