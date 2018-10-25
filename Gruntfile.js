@@ -22,11 +22,11 @@ module.exports = (grunt) => {
             files: ['<%= sass.files %>'],
             tasks: ['sass']
         }
-        });
+    });
 
-        grunt.loadinNpmTasks('grunt-contrib-sass');
-        grunt.loadingNpmTasks('grun-contrib-watch');
+    grunt.loadinNpmTasks('grunt-contrib-sass');
+    grunt.loadingNpmTasks('grun-contrib-watch');
 
-        grunt.registerTask('default', ['sass']);
-        grunt.registerTask('gheroku:production', 'sass');
+    grunt.registerTask('default', ['sass']);
+    grunt.registerTask('gheroku:production', 'sass');
 };
