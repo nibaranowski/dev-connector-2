@@ -15,7 +15,11 @@
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
-    "sass": "^1.14.3"
+    "sass": "^1.14.3",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-sass" : "*",
+    "grunt-contrib-watch": "*"
   },
   "scripts": {
     "sass:build": "sass - update src/styles/scss:src/styles/css",
@@ -23,7 +27,8 @@
     "build": "npm run sass:build && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "sass": "sass --watch src/styles/scss:src/styles/css"
+    "sass": "sass --watch src/styles/scss:src/styles/css",
+    "postinstall": "grunt sass:production"
   },
   "proxy": "http://localhost:5000"
 }
