@@ -32,6 +32,7 @@
   "devDependencies": {
     "autoprefixer": "^9.3.0",
     "css-loader": "^1.0.0",
+    "grunt": "^1.0.3",
     "node-sass": "^4.9.4",
     "nodemon": "^1.18.3",
     "postcss-loader": "^3.0.0",
