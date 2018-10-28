@@ -32,7 +32,7 @@
   --secondary: #F67280;
   --success: #0074E4;
   --info: #0074E4;
-  --main-button: #deecfc;
+  --main-button: #000000;
   --main-button-hover: #d5e3f2;
   --warning: #FC3C3C;
   --danger: #FF4057;
@@ -46,7 +46,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --main-font-family: 'Nunito';
-  --second-font-family: 'Nunito', serif;
+  --second-font-family: 'Roboto Slab', serif;
 }
 
 *,
