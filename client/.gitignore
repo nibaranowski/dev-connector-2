@@ -21,5 +21,3 @@ yarn-debug.log*
 yarn-error.log*
 
 .sass-cache
-
-client/src/styles/**
